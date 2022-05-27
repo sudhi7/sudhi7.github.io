@@ -1,0 +1,14 @@
+.contact {
+    list-style: none;
+    position: fixed;
+    box-shadow: black 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 1%;
+    bottom: 0;
+    right: 0;
+}
+
+.contact img {
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+}

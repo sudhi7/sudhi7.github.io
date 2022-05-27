@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 90%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #212121;
+    color: #9e9e9e;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.intro {
+    margin: 3% 2%;
+}
+
+.eduexp {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 20%;
+    font-family:'Courier New', Courier, monospace
+}
+
+.edu, .exp {
+    text-align: left;
+    width: 45%;
+}
+
+.edu h3, .exp h3 {
+    padding: 0%;
+    border-bottom: solid #9e9e9e;
+}
+
+.eduexp h4, .eduexp h5{
+    padding: 0%;
+    margin: 1% 0%;
+}
+
+.eduexp h6 {
+    padding: 0%;
+    margin: 1.5% 0%;
+}
+
+.eduexp li {
+    margin-bottom: 15%;
+}
+
+.link {
+    color: red;
+}
